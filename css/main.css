@@ -13,13 +13,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
+    display: flex;
+    align-items: flex-end;
   }
-  .kitten-large {
-    width: 50%;
-    /* margin-left: 21%; */
-    margin-left: 25%;
-    margin-top: 50%;
-  }
+  
   .kitten-small, .kitten-medium {
     display: none;
   }
@@ -33,13 +30,10 @@
     background-size: cover;
     background-position: center center;
     height: 100vh;
+    display: flex;
+    align-items: flex-end;
   }
-  .kitten-small {
-    width: 50%;
-    /* margin-left: 21%; */
-    margin-left: 25%;
-    margin-top: 25%;
-  }
+
   .kitten-large, .kitten-medium {
     display: none;
   }
@@ -52,14 +46,114 @@
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
+    display: flex;
+    align-items: flex-end;
   }
-  .kitten-medium {
-    width: 50%;
-    /* margin-left: 21%; */
-    margin-left: 25%;
-    margin-top: 16.66666667%;
-  }
+
   .kitten-large, .kitten-small {
     display: none;
   }
+}
+
+
+/*grillas*/
+
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+.col-xs-2 {
+  width: 16.66666667%;
+}
+
+.col-xs-3 {
+  width: 25%;
+}
+
+.col-xs-4 {
+  width: 33.33333333%;
+}
+
+.col-xs-5 {
+  width: 41.66666667%;
+}
+
+.col-xs-6 {
+  width: 50%;
+}
+
+.col-xs-7 {
+  width: 58.33333333%;
+}
+
+.col-xs-8 {
+  width: 66.66666667%;
+}
+
+.col-xs-9 {
+  width: 75%;
+}
+
+.col-xs-10 {
+  width: 83.33333333%;
+}
+
+.col-xs-11 {
+  width: 91.66666667%;
+}
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+.col-xs-offset-12 {
+  margin-left: 100%;
 }
